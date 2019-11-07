@@ -54,9 +54,9 @@ module.exports = function(config, callback) {
 
     // filter_out
     if (!config.riverMap[key].filter_out || config.riverMap[key].filter_out.length == 0) {
-      let filter_map = [];
+      var filter_map = [];
     } else {
-      let filter_map = config.riverMap[key].filter_out;
+      var filter_map = config.riverMap[key].filter_out;
     }
 
     // exception_handler
