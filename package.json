@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/parksben/mysql_2_elasticsearch.git"
+    "url": "git+https://github.com/stonemason10/mysql_2_elasticsearch.git"
   },
   "keywords": [
     "elasticsearch",
@@ -24,9 +24,9 @@
   "author": "parksben",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/parksben/mysql_2_elasticsearch/issues"
+    "url": "https://github.com/stonemason10/mysql_2_elasticsearch/issues"
   },
-  "homepage": "https://github.com/parksben/mysql_2_elasticsearch#readme",
+  "homepage": "https://github.com/stonemason10/mysql_2_elasticsearch#readme",
   "devDependencies": {
     "elasticsearch": "^12.1.1",
     "mysql": "^2.12.0"
