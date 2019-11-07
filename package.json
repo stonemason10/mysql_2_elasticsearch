@@ -28,7 +28,9 @@
   },
   "homepage": "https://github.com/stonemason10/mysql_2_elasticsearch#readme",
   "devDependencies": {
-    "elasticsearch": "^12.1.1",
-    "mysql": "^2.12.0"
+    "mysql": "^2.17.1"
+  },
+  "dependencies": {
+    "elasticsearch": "^16.5.0"
   }
 }
