@@ -49,8 +49,8 @@ module.exports = function(config, callback) {
   let failedArr = [];
 
   for (let key in config.riverMap) {
-    let curTable = key.split('=>')[0].replace(/\s+/g, '');
-    let curType = key.split('=>')[1].replace(/\s+/g, '');
+    var curTable = key.split('=>')[0].replace(/\s+/g, '');
+    var curType = key.split('=>')[1].replace(/\s+/g, '');
 
     // filter_out
     if (!config.riverMap[key].filter_out || config.riverMap[key].filter_out.length == 0) {
@@ -61,9 +61,9 @@ module.exports = function(config, callback) {
 
     // exception_handler
     if (!config.riverMap[key].exception_handler) {
-      let exception_handler = {};
+      var exception_handler = {};
     } else {
-      let exception_handler = config.riverMap[key].exception_handler;
+      var exception_handler = config.riverMap[key].exception_handler;
     }
 
     // 表名为SQL，则表示将SQL查询结果存入对应type
